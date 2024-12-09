@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} height="70px" width="70px" />
+          <img src={logo} height="150px" width="150px" />
         </div>
         <div className="gpt3__navbar-links_container">
           <p>

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--color-footer);
+    background: #fff;
   }
   
   .gpt3__contact-form-heading {
@@ -35,8 +35,9 @@
   
   .form-group label {
     font-family: var(--font-family);
-    color: #fff;
+    color: #001b5d;
     margin-bottom: 0.5rem;
+    font-weight: 600;
     font-size: 14px;
   }
   
@@ -44,9 +45,9 @@
   .form-group textarea {
     padding: 0.75rem;
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 27,93);
     border-radius: 5px;
-    color: #fff;
+    color: black;
     font-family: var(--font-family);
     font-size: 16px;
     transition: border-color 0.3s ease;
@@ -55,7 +56,7 @@
   .form-group input:focus,
   .form-group textarea:focus {
     outline: none;
-    border-color: #fff;
+    border-color: #001b5d;
   }
   
   .form-group textarea {
@@ -65,7 +66,7 @@
   
   .contact-submit-btn {
     padding: 1rem;
-    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    background: #001b5d;
     color: #fff;
     border: none;
     border-radius: 5px;

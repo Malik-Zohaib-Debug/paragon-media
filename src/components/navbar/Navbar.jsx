@@ -33,13 +33,13 @@ const Navbar = () => {
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#001b5d"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#001b5d"
             size={27}
             onClick={() => setToggleMenu(true)}
           />

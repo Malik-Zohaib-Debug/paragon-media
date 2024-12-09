@@ -15,43 +15,44 @@ a {
 }
 
 .gradient__bg {
-  background: -moz-radial-gradient(
+  /* background: -moz-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ); */
+  background-color: rgba(241, 251, 254);
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(
+  /* background: -webkit-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ); */
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(
+  /* background: -o-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ); */
 
   /* ie 10+ */
-  background: -ms-radial-gradient(
+  /* background: -ms-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ); */
 
   /* global 92%+ browsers support */
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ); */
 }
 
 .gradient__text {
-  background: var(--gradient-text);
+  background: #001b5d;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

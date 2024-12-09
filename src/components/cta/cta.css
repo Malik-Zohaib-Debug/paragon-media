@@ -7,7 +7,7 @@
   padding: 2rem;
   margin: 4rem;
   border-radius: 1rem;
-  background: var(--gradient-bar);
+  background: rgba(246, 251, 254);;
 }
 
 .gpt3__cta-content {
@@ -15,7 +15,7 @@
   flex-direction: column;
 
   text-align: left;
-  color: #fff;
+  color: #001b5d;
 }
 
 .gpt3__cta-content p {
@@ -41,7 +41,7 @@
 }
 
 .gpt3__cta-btn button {
-  background: #000;
+  background: #001b5d;
   color: #fff;
   font-family: var(--font-family);
   font-weight: 700;

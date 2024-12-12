@@ -47,7 +47,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  background: "#001b5d";
+  background: "#4e6ef2";
   border: 2px solid var(--color-footer);
   padding: 0 1rem;
   outline: none;
@@ -58,7 +58,7 @@
 }
 
 .header_text{
-  color: #001b5d;
+  color: #4e6ef2;
 }
 
 .gpt3__header-content__input button {
@@ -69,8 +69,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  background: #001b5d;
-  border: 2px solid #001b5d;
+  background: #4e6ef2;
+  border: 2px solid #4e6ef2;
   padding: 0 1rem;
   color: #fff;
   cursor: pointer;

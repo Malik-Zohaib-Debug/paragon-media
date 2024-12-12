@@ -15,7 +15,7 @@
   flex-direction: column;
 
   text-align: left;
-  color: #001b5d;
+  color: #4e6ef2;
 }
 
 .gpt3__cta-content p {
@@ -41,7 +41,7 @@
 }
 
 .gpt3__cta-btn button {
-  background: #001b5d;
+  background: #4e6ef2;
   color: #fff;
   font-family: var(--font-family);
   font-weight: 700;

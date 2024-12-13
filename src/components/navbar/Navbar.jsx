@@ -20,7 +20,7 @@ const Navbar = () => {
             <a href="#wgpt3">Why Paragon Media?</a>
           </p>
           <p>
-            <a href="#possibility">Contact</a>
+            <a href="#contact">Contact</a>
           </p>
           <p>
             <a href="#features">About</a>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <a href="#wgpt3">What is GPT3?</a>
               </p>
               <p>
-                <a href="#possibility">Open AI</a>
+                <a href="#contact">Open AI</a>
               </p>
               <p>
                 <a href="#features">Case Studies</a>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <a href="#wgpt3">Why Paragon Media?</a>
               </p>
               <p>
-                <a href="#possibility">Contact</a>
+                <a href="#contact">Contact</a>
               </p>
               <p>
                 <a href="#features">About</a>

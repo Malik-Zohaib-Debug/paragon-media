@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="gpt3__contact-form section__padding">
+    <div className="gpt3__contact-form section__padding" id="contact">
       <div className="gpt3__contact-form-heading">
         <h2 className="gradient__text">Get in Touch With Us</h2>
       </div>

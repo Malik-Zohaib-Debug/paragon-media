@@ -5,17 +5,17 @@ import "./counter.css";
 const Counter = () => {
   const counters = [
     {
-      value: 20000000,
+      value: 20,
       label: "Spent",
       description: "Total Investment",
     },
     {
-      value: 1000000,
+      value: 1000,
       label: "Leads Generated",
       description: "Potential Customers",
     },
     {
-      value: 250000000,
+      value: 250,
       label: "Revenue Generated",
       description: "Business Growth",
     },

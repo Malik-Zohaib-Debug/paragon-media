@@ -12,6 +12,7 @@ import {
 import { CTA, Brand, Navbar } from "./components";
 
 import "./App.css";
+import Counter from "./components/counter/Counter";
 
 const App = () => (
   <div className="App">
@@ -22,6 +23,7 @@ const App = () => (
     <Brand />
     <WhatGPT3 />
     <Features />
+    <Counter />
     <Possibility />
     <CTA />
     <Blog />

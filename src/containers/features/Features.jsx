@@ -4,19 +4,19 @@ import "./features.css";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
+    title: "Medicare",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
   },
   {
-    title: "Become the tended active",
+    title: "Health Insurance",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
   },
   {
-    title: "Message or am nothing",
+    title: "Home Improvement",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
   },
   {
-    title: "Really boy law county",
+    title: "Debt Relief",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
   },
 ];

@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-  "node": ">=16 <19"
-},
+    "node": ">=16 <19"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
+    "react-countup": "^6.5.3",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-scripts": "^4.0.3",
@@ -17,9 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-  "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

@@ -6,13 +6,12 @@ import "./header.css";
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Lorem ipsum dolor sit amet</h1>
+      <h1 className="gradient__text">
+        Industry leading pay per call and inbound lead generation experts.
+      </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
-        laudantium et doloribus reiciendis, consequatur molestiae. Voluptate
-        aspernatur mollitia, beatae eveniet aliquam iste perspiciatis nostrum
-        suscipit impedit omnis doloremque minus, repellat nemo illum blanditiis.
-        Blanditiis nobis numquam sequi,
+        We help advertisers increase their revenue and profits with high quality
+        inbound leads.
       </p>
 
       <div className="gpt3__header-content__input">

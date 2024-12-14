@@ -8,17 +8,14 @@ const WhatGPT3 = () => (
       <Feature
         title="Why Paragon Media?"
         text="Paragon Media is a performance marketing agency focused on creating innovative solutions that enhance the consumer experience while driving substantial growth for our clients. Our end-to-end approach ensures a smooth process from the first interaction to the final purchase, enabling your insurance products to excel in a competitive market."
+        text2="Every call we handle is routed through meticulously designed funnels to
+        thoroughly vet and pre-qualify potential customers. This ensures that your agents engage with genuinely interested prospects, making the
+        closing process more efficient and effective."
       />
-    </div>
-    <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">
-        Lorem ipsum dolor sit amet consectetur,
-      </h1>
-      <p>Lorem, ipsum dolor.</p>
     </div>
     <div className="gpt3__whatgpt3-container">
       <Feature
-        title="Bespoke Analytics"
+        title="Custom Analytics & Reporting"
         text="We create custom reports for our clients, using our proprietary technology, to give detailed insight into their most important performance metrics. This collaboration allows us to have a synergistic relationship with our clients. We focus on the front end while they enhance the back end, resulting in new sales heights!"
       />
       <Feature

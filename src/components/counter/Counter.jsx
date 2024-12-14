@@ -10,7 +10,7 @@ const Counter = () => {
       description: "Total Investment",
     },
     {
-      value: 1000,
+      value: 1000000,
       label: "Leads Generated",
       description: "Potential Customers",
     },
@@ -53,7 +53,7 @@ const Counter = () => {
                   end={counter.value}
                   duration={2.5}
                   separator=","
-                  suffix={index === 0 ? "M+" : "K+"} // Customize suffix
+                  suffix={index === 0 || index === 2 ? "M+" : "+"} // Customize suffix
                 />
               ) : (
                 "0"

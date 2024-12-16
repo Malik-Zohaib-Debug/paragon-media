@@ -29,10 +29,13 @@
 
 /* Features Container */
 .gpt3__features-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  display: grid; /* Changed from flex to grid */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-auto-rows: auto; /* Adjusts row height dynamically */
+  gap: 2rem; /* Space between items */
+  justify-content: center; /* Center the grid items */
+  width: 100%;
+  max-width: 800px; /* Optional: Limit maximum width of the grid */
 }
 
 /* Individual Feature */
@@ -40,7 +43,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 350px;
   text-align: center;
 }
 
@@ -71,8 +73,8 @@
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .gpt3__features-container {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+    gap: 1.5rem;
   }
 
   .gpt3__features-main-heading h1 {

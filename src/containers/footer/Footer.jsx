@@ -40,7 +40,7 @@ const Footer = () => (
 
     {/* Organization Logos Section */}
     <div className="gpt3__footer-logos">
-      <h4>Trusted By Organisations Like</h4>
+      <h4>Trusted By Organisations Like:</h4>
       <div className="gpt3__footer-logos_container">
         <img src={org1} alt="Organization 1 Logo" />
         <img src={org2} alt="Organization 2 Logo" />

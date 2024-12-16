@@ -1,23 +1,23 @@
 import React from "react";
-import { google, slack, atlassian, dropbox, shopify } from "./imports";
+import { google, instagram, tiktok, meta, youtube } from "./imports";
 import "./brand.css";
 
 const Brand = () => (
   <div className="gpt3__brand section__padding">
     <div>
-      <img src={google} />
+      <img src={google} width="75px" height="25px" />
     </div>
     <div>
-      <img src={slack} />
+      <img src={instagram} width="130px" height="100px" />
     </div>
     <div>
-      <img src={atlassian} />
+      <img src={tiktok} width="130px" height="100px" />
     </div>
     <div>
-      <img src={dropbox} />
+      <img src={meta} width="130px" height="100px" />
     </div>
     <div>
-      <img src={shopify} />
+      <img src={youtube} width="130px" height="100px" />
     </div>
   </div>
 );

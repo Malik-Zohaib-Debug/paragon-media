@@ -1,7 +1,7 @@
 import google from "../../assets/google.png";
-import slack from "../../assets/slack.png";
-import atlassian from "../../assets/atlassian.png";
-import dropbox from "../../assets/dropbox.png";
-import shopify from "../../assets/shopify.png";
+import instagram from "../../assets/instagram.svg";
+import tiktok from "../../assets/tiktok.svg";
+import meta from "../../assets/meta.svg";
+import youtube from "../../assets/youtube.svg";
 
-export { google, slack, atlassian, dropbox, shopify };
+export { google, instagram, tiktok, meta, youtube };

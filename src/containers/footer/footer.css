@@ -116,6 +116,35 @@
   color: black;
 }
 
+.gpt3__footer-logos {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.gpt3__footer-logos h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.gpt3__footer-logos_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gpt3__footer-logos_container img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.gpt3__footer-logos_container img:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 850px) {
   .gpt3__footer-heading h1 {
     font-size: 44px;

@@ -9,7 +9,7 @@ import {
   Header,
   ContactForm,
 } from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { Brand, Navbar } from "./components";
 
 import "./App.css";
 import Counter from "./components/counter/Counter";
@@ -26,7 +26,7 @@ const App = () => (
     <Features />
     <Counter />
     {/* <Possibility /> */}
-    <CTA />
+    {/* <CTA /> */}
     {/* <Blog /> */}
     <TrustedOrgs />
     <ContactForm />

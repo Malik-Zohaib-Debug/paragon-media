@@ -7,7 +7,7 @@ const Counter = () => {
     {
       value: 20,
       label: "Spent",
-      description: "Total Investment",
+      description: "In Paid Ads",
     },
     {
       value: 1000000,
@@ -17,7 +17,7 @@ const Counter = () => {
     {
       value: 250,
       label: "Revenue Generated",
-      description: "Business Growth",
+      description: "For Our Clients",
     },
   ];
 

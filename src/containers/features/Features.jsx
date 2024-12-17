@@ -32,7 +32,7 @@ const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     {/* Main Heading */}
     <div className="gpt3__features-main-heading">
-      <h1 className="gradient__text">Explore Our Services</h1>
+      <h1 className="gradient__text">Verticals We Serve</h1>
       <p>Find out more about how we can help you today.</p>
     </div>
 

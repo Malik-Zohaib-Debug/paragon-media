@@ -8,22 +8,22 @@ import "./features.css";
 const featuresData = [
   {
     title: "Medicare",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
+    text: "Boost your sales pipelines with our highly qualified Medicare leads, designed to meet your regulatory needs and maximize call center efficiency.",
     image: medicareImg,
   },
   {
     title: "Health Insurance",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
+    text: "Optimize your customer acquisition with our pre-qualified health insurance leads, tailored to reduce costs and improve agent productivity.",
     image: insuranceImg,
   },
   {
     title: "Home Improvement",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
+    text: "Grow your business with our high-quality home improvement leads, specializing in window replacement, roof replacement, bathroom renovation, solar installations, and more.",
     image: improvementImg,
   },
   {
     title: "Debt Relief",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laudantium et doloribus reiciendis, consequatur molestiae.",
+    text: "Drive more business with our expertly vetted debt relief leads, designed to connect you with clients seeking financial recovery.",
     image: debtImg,
   },
 ];

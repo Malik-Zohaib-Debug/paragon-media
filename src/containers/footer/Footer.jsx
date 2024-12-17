@@ -1,10 +1,6 @@
 import React from "react";
 // import gpt3Logo from "../../logo.svg";
 // Import organization logos
-import org1 from "../../assets/humana.svg";
-import org2 from "../../assets/allState.svg";
-import org3 from "../../assets/Ehealth.svg";
-import org4 from "../../assets/unitedHealthCare.svg";
 
 import "./footer.css";
 
@@ -37,18 +33,6 @@ const Footer = () => (
         <p>info@payme.net</p>
       </div>
     </div>
-
-    {/* Organization Logos Section */}
-    <div className="gpt3__footer-logos">
-      <h4>Trusted By Organisations Like:</h4>
-      <div className="gpt3__footer-logos_container">
-        <img src={org1} alt="Organization 1 Logo" />
-        <img src={org2} alt="Organization 2 Logo" />
-        <img src={org3} alt="Organization 3 Logo" />
-        <img src={org4} alt="Organization 4 Logo" />
-      </div>
-    </div>
-
     <div className="gpt3__footer-copyright">
       <p>@2024 Paragon Media. All rights reserved.</p>
     </div>

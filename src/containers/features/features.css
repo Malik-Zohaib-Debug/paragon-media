@@ -25,10 +25,12 @@
   line-height: 32px;
   margin-top: 1rem;
   font-weight: 500;
+  font-family: var(--font-family);
 }
 
 /* Features Container */
 .gpt3__features-container {
+  font-family: var(--font-family);
   display: grid; /* Changed from flex to grid */
   grid-template-columns: repeat(2, 1fr); /* Two columns */
   grid-auto-rows: auto; /* Adjusts row height dynamically */
@@ -57,7 +59,7 @@
 /* Feature Title */
 .gpt3__feature-title {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   margin: 0.5rem 0;
   color: #4E6EF2;
 }

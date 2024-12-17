@@ -13,6 +13,7 @@ import { CTA, Brand, Navbar } from "./components";
 
 import "./App.css";
 import Counter from "./components/counter/Counter";
+import TrustedOrgs from "./containers/trustedOrgs/TrustedOrgs";
 
 const App = () => (
   <div className="App">
@@ -27,6 +28,7 @@ const App = () => (
     {/* <Possibility /> */}
     <CTA />
     {/* <Blog /> */}
+    <TrustedOrgs />
     <ContactForm />
     <Footer />
   </div>

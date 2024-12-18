@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     background: #fff;
+    margin-top: 60px;
   }
   
   .gpt3__contact-form-heading {
@@ -12,11 +13,11 @@
     margin-bottom: 3rem;
   }
   
-  .gpt3__contact-form-heading h2 {
+  .gpt3__contact-form-heading h1 {
     font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 75px;
+    font-size: 40px;
+  line-height: 48px;
+  font-weight: 800;
   }
   
   .contact-form {

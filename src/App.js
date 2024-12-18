@@ -1,37 +1,18 @@
 import React from "react";
-
-import {
-  Footer,
-  // Blog,
-  // Possibility,
-  Features,
-  WhatGPT3,
-  Header,
-  ContactForm,
-} from "./containers";
-import { Brand, Navbar } from "./components";
-
-import "./App.css";
-import Counter from "./components/counter/Counter";
-import TrustedOrgs from "./containers/trustedOrgs/TrustedOrgs";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+import PrivacyPolicy from "./pages/privacy-policy";
+import TermsConditions from "./pages/termsConditions";
 
 const App = () => (
-  <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
-    <Brand />
-    <WhatGPT3 />
-    <Features />
-    <Counter />
-    {/* <Possibility /> */}
-    {/* <CTA /> */}
-    {/* <Blog /> */}
-    <TrustedOrgs />
-    <ContactForm />
-    <Footer />
-  </div>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-conditions" element={<TermsConditions />} />
+      {/* <Route path="*" /> */}
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;

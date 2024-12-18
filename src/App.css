@@ -72,6 +72,40 @@ a {
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
+.privacy-policy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.privacy-policy >  p{
+  font-family: var(--font-family); 
+}
+
+.privacy-content {
+  font-family: var(--font-family);
+}
+
+.termsConditions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.termsContent {
+  font-family: var(--font-family);
+}
+
+.termsConditions > h2 {
+  font-family: var(--font-family);
+}
+
+.termsContent > p {
+  font-family: var(--font-family);
+}
+
 @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);

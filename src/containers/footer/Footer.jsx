@@ -1,36 +1,49 @@
 import React from "react";
-// import gpt3Logo from "../../logo.svg";
-// Import organization logos
+import { Link } from "react-router-dom";
+import instagramIcon from "../../assets/instagram-icon.svg";
+import linkedinIcon from "../../assets/linkedin.svg";
 
 import "./footer.css";
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
-    <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">
-        Lorem ipsum dolor sit amet consectetur, adipisicing.
-      </h1>
-    </div>
-
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Overons</p>
         <p>Social Media</p>
-        <p>Counters</p>
+        <div
+          className="gpt3__footer-social-icons"
+          style={{ alignItems: "center" }}
+        >
+          <a
+            href="https://google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagramIcon} alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/paragon-mediallc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedinIcon} alt="LinkedIn" />
+          </a>
+        </div>
         <p>Contact</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
+        <Link to="/terms-conditions">
+          <p>Terms & Conditions</p>
+        </Link>
+        <Link to="/privacy-policy">
+          <p>Privacy Policy</p>
+        </Link>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p>nick@paragonmedia.io</p>
       </div>
     </div>
     <div className="gpt3__footer-copyright">

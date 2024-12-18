@@ -1,8 +1,8 @@
 import React from "react";
-import org1 from "../../assets/humana.svg";
-import org2 from "../../assets/allState.svg";
-import org3 from "../../assets/Ehealth.svg";
-import org4 from "../../assets/unitedHealthCare.svg";
+import org1 from "../../assets/humana.jpg";
+import org2 from "../../assets/allState.png";
+import org3 from "../../assets/eHealth.png";
+import org4 from "../../assets/unitedHealthCare.png";
 import "./trustedOrgs.css";
 
 const TrustedOrgs = () => (

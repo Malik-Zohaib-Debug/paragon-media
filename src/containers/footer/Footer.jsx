@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import instagramIcon from "../../assets/instagram-icon.svg";
-import linkedinIcon from "../../assets/linkedin.svg";
+import linkedinIcon from "../../assets/linkedin-icon.svg";
 
 import "./footer.css";
 
@@ -20,14 +20,19 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={instagramIcon} alt="Instagram" />
+            <img
+              src={instagramIcon}
+              alt="Instagram"
+              width="40px"
+              height="40px"
+            />
           </a>
           <a
             href="https://www.linkedin.com/company/paragon-mediallc"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedinIcon} alt="LinkedIn" />
+            <img src={linkedinIcon} alt="LinkedIn" width="40px" height="40px" />
           </a>
         </div>
         <p>Contact</p>

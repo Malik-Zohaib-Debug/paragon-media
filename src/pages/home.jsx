@@ -12,10 +12,10 @@ const Home = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
     <WhatGPT3 />
     <Features />
     <Counter />
+    <Brand />
     {/* <Possibility /> */}
     {/* <CTA /> */}
     {/* <Blog /> */}

@@ -15,12 +15,12 @@ const Home = () => (
     <WhatGPT3 />
     <Features />
     <Counter />
-    <Brand />
+    <TrustedOrgs />
     {/* <Possibility /> */}
     {/* <CTA /> */}
     {/* <Blog /> */}
     <Services />
-    <TrustedOrgs />
+    <Brand />
     <ContactForm />
     <Footer />
   </div>

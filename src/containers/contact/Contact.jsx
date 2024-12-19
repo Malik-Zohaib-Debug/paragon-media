@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser"; // Import EmailJS
+import emailjs from "@emailjs/browser";
+import Toast from "../../components/toast/Toast";
 import "./contact.css";
 
 const ContactForm = () => {
@@ -9,9 +10,18 @@ const ContactForm = () => {
     message: "",
   });
 
-  const [isSubmitting, setIsSubmitting] = useState(false); // To manage submission state
-  const [isSuccess, setIsSuccess] = useState(false); // To show success message
-  const [error, setError] = useState(""); // To handle error messages
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState("");
+  const [toasts, setToasts] = useState([]); // State to manage toast notifications
+
+  const addToast = (message, type) => {
+    const id = Math.random().toString(36).substring(7); // Unique ID for each toast
+    setToasts((prev) => [...prev, { id, message, type }]);
+  };
+
+  const removeToast = (id) => {
+    setToasts((prev) => prev.filter((toast) => toast.id !== id));
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,8 +34,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setError(""); // Clear previous error
-    setIsSuccess(false); // Reset success state
+    setError("");
 
     const clientDetails = {
       message: `
@@ -42,22 +51,20 @@ const ContactForm = () => {
         "9Ggrqy69azipnHDmt",
       )
       .then(
-        (result) => {
+        () => {
           setIsSubmitting(false);
-          setIsSuccess(true);
           setFormData({
             name: "",
             email: "",
             message: "",
           });
-
-          console.log("result ", result);
+          addToast("Message sent successfully!", "success");
         },
-        (err) => {
-          // Renamed error to err
+        () => {
           setIsSubmitting(false);
           setError("Failed to send the message. Please try again.");
-          console.error("Error: ", err); // Log the error for debugging
+          addToast("Failed to send the message. Please try again.", "error");
+          console.log("Error: ", error);
         },
       );
   };
@@ -111,10 +118,16 @@ const ContactForm = () => {
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>
       </form>
-      {isSuccess && (
-        <p className="success-message">Message sent successfully!</p>
-      )}
-      {error && <p className="error-message">{error}</p>}
+      <div className="toast-container">
+        {toasts.map((toast) => (
+          <Toast
+            key={toast.id}
+            message={toast.message}
+            type={toast.type}
+            onClose={() => removeToast(toast.id)}
+          />
+        ))}
+      </div>
     </div>
   );
 };

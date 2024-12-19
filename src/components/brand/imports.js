@@ -1,4 +1,4 @@
-import google from "../../assets/google.png";
+import google from "../../assets/google.svg";
 import instagram from "../../assets/instagram.svg";
 import tiktok from "../../assets/tiktok.svg";
 import meta from "../../assets/meta.svg";

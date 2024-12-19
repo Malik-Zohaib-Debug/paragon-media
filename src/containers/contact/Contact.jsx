@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser"; // Import EmailJS
 import "./contact.css";
 
 const ContactForm = () => {
@@ -7,6 +8,10 @@ const ContactForm = () => {
     email: "",
     message: "",
   });
+
+  const [isSubmitting, setIsSubmitting] = useState(false); // To manage submission state
+  const [isSuccess, setIsSuccess] = useState(false); // To show success message
+  const [error, setError] = useState(""); // To handle error messages
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,7 +23,43 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add form submission logic here
+    setIsSubmitting(true);
+    setError(""); // Clear previous error
+    setIsSuccess(false); // Reset success state
+
+    const clientDetails = {
+      message: `
+      Client Email: ${formData.email} \n 
+      Client Name: ${formData.name}  \n 
+      Message: ${formData.message}`,
+    };
+
+    emailjs
+      .send(
+        "service_hvs9nup",
+        "template_b3pj40k",
+        clientDetails,
+        "9Ggrqy69azipnHDmt",
+      )
+      .then(
+        (result) => {
+          setIsSubmitting(false);
+          setIsSuccess(true);
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
+
+          console.log("result ", result);
+        },
+        (err) => {
+          // Renamed error to err
+          setIsSubmitting(false);
+          setError("Failed to send the message. Please try again.");
+          console.error("Error: ", err); // Log the error for debugging
+        },
+      );
   };
 
   return (
@@ -62,10 +103,18 @@ const ContactForm = () => {
             placeholder="Your Message"
           />
         </div>
-        <button type="submit" className="contact-submit-btn">
-          Send Message
+        <button
+          type="submit"
+          className="contact-submit-btn"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Sending..." : "Send Message"}
         </button>
       </form>
+      {isSuccess && (
+        <p className="success-message">Message sent successfully!</p>
+      )}
+      {error && <p className="error-message">{error}</p>}
     </div>
   );
 };

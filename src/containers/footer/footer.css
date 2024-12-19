@@ -84,6 +84,7 @@
   line-height: 17px;
   font-family: var(--font-family);
   color: black;
+  margin: 2px;
 }
 
 .gpt3__footer-links_div p {
@@ -91,8 +92,7 @@
   line-height: 15px;
   font-family: var(--font-family);
   color: black;
-
-  margin: 0.5rem 0;
+  margin: 2px;
   cursor: pointer;
 }
 

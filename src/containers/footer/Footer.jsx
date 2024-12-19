@@ -23,8 +23,8 @@ const Footer = () => (
             <img
               src={instagramIcon}
               alt="Instagram"
-              width="40px"
-              height="40px"
+              width="30px"
+              height="30px"
             />
           </a>
           <a
@@ -32,10 +32,9 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedinIcon} alt="LinkedIn" width="40px" height="40px" />
+            <img src={linkedinIcon} alt="LinkedIn" width="30px" height="30px" />
           </a>
         </div>
-        <p>Contact</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>

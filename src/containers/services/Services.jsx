@@ -2,7 +2,7 @@ import React from "react";
 import targetedAds from "../../assets/targetedAds.jpeg";
 import conversionOptimization from "../../assets/conversionOptimization.jpeg";
 import analyticsReporting from "../../assets/analyticsReporting.jpeg";
-import strategyRefinement from "../../assets/strategyRefinement.jpeg";
+import strategyRefinement from "../../assets/strategyRefinement.svg";
 
 import "./services.css";
 
